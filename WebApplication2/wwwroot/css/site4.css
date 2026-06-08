@@ -1,0 +1,135 @@
+﻿.part6 p {
+    color: #6b7280;
+    
+
+}
+.part6 h1 {
+    
+    margin-top: 250px;
+}
+
+
+.A {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:200px;
+
+    flex-direction:row-reverse;
+
+}
+.part7 {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin-left: auto;
+    margin-right: 100px;
+    background-color: antiquewhite;
+    width: 30%;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* حركة سلسة */
+}
+    .part7:hover {
+        transform: scale(1.1); /* يكبر بنسبة 20% */
+    }
+
+
+.part71 h3 {
+    color:#f59e0b;
+    margin-right:40px;
+
+  
+}
+.part72 {
+    display: flex;
+    gap: 5px;
+    margin-right:40px;
+   
+}
+
+
+
+    .part72 i {
+        color: #f59e0b;
+    }
+
+       
+
+        .part72 p {
+            color: #6b7280;
+        }
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    margin-left: auto;
+    margin-right: 100px;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    justify-content:center;
+    align-items:center;
+   margin-bottom:40px;
+}
+
+
+    .form .part11 {
+        display: flex;
+        flex-direction: column;
+       
+        direction: rtl;
+       
+    }
+
+
+
+
+
+        .form .part1 {
+            display:flex;
+            gap:30px;
+           margin-right:auto;
+        }
+
+           
+.part {
+    display: flex;
+    flex-direction: column;
+}
+
+.form button {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #252020;
+}
+
+.form input {
+    border-radius:10px;
+    border :none;
+    padding:10px 20px;
+
+}
+
+.form textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+}
+
+
+.Links a.active1 {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+}
+
+

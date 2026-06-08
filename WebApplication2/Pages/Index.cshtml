@@ -1,0 +1,207 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./css/site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3  navbar " >
+            <div class="container" id="navbar">
+                <div class="logo">
+                    <span>سفرة هانم</span>
+                    <i class="fa-solid fa-utensils" style="color:#f59e0b; font-size:28px;"></i>
+                 
+                </div>
+                 
+
+                <div class="nav-item">
+                    
+
+
+                    <div class="reservation">
+                        <a href="https://localhost:7130/Index5" class=" active btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">حجز طاوله</a>
+
+                    </div>
+
+
+                    <div class="Links">
+                        <a href="https://localhost:7130/" class="text-decoration-none fw-bold link1">الرئيسه</a>
+                        <a href="https://localhost:7130/Index2/" class="text-decoration-none fw-bold link2">القائمه</a>
+                        <a href="https://localhost:7130/Index3/" class="text-decoration-none fw-bold link3">من نحن </a>
+                        <a href="https://localhost:7130/Index4/" class="text-decoration-none fw-bold link4">اتصل بنا</a>
+
+
+                    </div>
+
+
+                    
+
+                </div>
+
+
+                    
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="Main pb-3">
+        <section class="Image">
+            <div class="text" id="specialText">
+                <span class="ss">أهلاً بكم في سفرة هانم</span>
+                <h1>نكهات أصيلة تجتمع في <span style="color:#f59e0b" ;>طبق واحد</span> </h1>
+
+                <p class="pp">نحن لا نقدم الطعام فحسب، بل نصنع ذكريات لا تُنسى من خلال أطباقنا المبتكرة والتقليدية المحضرة بكل حب.</p>
+                <div class="Button">
+                    <a href="#menu" class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">استعراض القائمه</a>
+                    <a href="#part2" class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">احجز طاولتك الان</a>
+                </div>
+
+            </div>
+        </section>
+        
+
+        <section class="features">
+
+
+            <div class="feature">
+                <i class="fa-solid fa-clock fa-2x"></i>
+                <h3>خدمة سريعة</h3>
+                <p>نحن نقدر وقتكم، لذلك نضمن لكم تقديم الطعام في أسرع وقت ممكن مع الحفاظ على الجودة.</p>
+
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-star fa-2x"></i>
+                <h3>شيف محترف</h3>
+                <p>فريقنا من الطهاة يمتلكون خبرة عالمية في تحضير الأطباق الشرقية والغربية.</p>
+            </div>
+
+            <div class="feature">
+                <i class="fa-solid fa-utensils fa-2x"></i>
+                <h3>مكونات طازجة</h3>
+                <p>نختار مكوناتنا بعناية فائقة من المزارع المحلية لضمان الجودة والمذاق.</p>
+            </div>
+
+        </section>
+
+
+        <section class="part1"> 
+            <div class="part11">
+                <h1>اطباقنا المميزة</h1>
+                <p>اخترنا لكم مجموعة من أفضل الأطباق التي يشتهر بها مطعمنا وتلقى إعجاب زوارنا دائماً.</p>
+            </div>
+
+
+            <!-- مكان عرض الأطباق -->
+            <div id="menu" class="menu-container"></div>
+
+
+
+           
+            <div class="part12">
+                <a href="https://localhost:7130/Index2">شاهد القائمه كاملة </a> 
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+           
+        </section>
+
+
+
+
+        <section class="part2" id="part2">
+           <div class="part21">
+                <h1>هل أنت جاهز لتجربة لا تُنسى؟</h1>
+                <p>
+                    احجز طاولتك الآن واستمتع بخصم 15% على طلبك الأول عند الحجز من خلال الموقع.
+
+                </p>
+                <a href="https://localhost:7130/Index5" class="text-decoration-none">احجز الان</a>
+
+           </div>
+
+        </section>
+
+
+        <section class="part3">
+            <div class="part31">
+                <div class="part311">
+                    <h4>سفرة هانم</h4>
+                    <i class="fa-solid fa-utensils" style="color:#f59e0b; font-size:28px;"></i>
+                    <p>
+                        نقدم لكم تجربة طعام فريدة تجمع بين عراقة الماضي وحداثة الحاضر، مع أجود المكونات الطازجة والنكهات الأصيلة.
+
+                    </p>
+                    <div class="ii">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="part311">
+                    <h4>روابط سريعه</h4>
+                    <div class="Links">
+                        <a href="#" class="text-decoration-none fw-bold text-white">الرئيسه</a>
+                        <a href="https://localhost:7130/Index2" class="text-decoration-none fw-bold text-white">قائمه الطعام</a>
+                        <a href="https://localhost:7130/Index3" class="text-decoration-none fw-bold text-white">قصتنا  </a>
+                        <a href="https://localhost:7130/Index5"class="text-decoration-none fw-bold text-white">حجز طاوله</a>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="part311">
+                    <h4>ساعات العمل </h4>
+                    <p>
+                        الأحد - الخميس:
+                        12:00 م - 12:00 ص
+                    </p>
+                    <p>
+                        الجمعة - السبت:
+                        01:00 م - 02:00 ص
+                    </p>
+                </div>
+
+                <div class="part311">
+                    <h4>اتصل بنا</h4>
+                    <p>+966 50 123 4567</p>
+                    <p>
+                        info@sofrahanem.com
+                    </p>
+                    <p>
+                        الرياض، حي الملقا، طريق الملك فهد
+                    </p>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+       
+      
+    </main>
+
+    <script src="./js/site.js"></script>
+
+</body>
+</html>

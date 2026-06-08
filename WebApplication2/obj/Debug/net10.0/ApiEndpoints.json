@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "WebApplication2.Controllers.MenuItemController",
+    "Method": "AddReservation",
+    "RelativePath": "api/MenuItem/addReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservation",
+        "Type": "WebApplication2.Models.Reservation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.MenuItemController",
+    "Method": "GetByCategory",
+    "RelativePath": "api/MenuItem/getByCategory/{categoryName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoryName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.MenuItemController",
+    "Method": "GetMenuItem",
+    "RelativePath": "api/MenuItem/getMenuItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.MenuItemController",
+    "Method": "GetStaff",
+    "RelativePath": "api/MenuItem/getStaff",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.MenuItemController",
+    "Method": "SendMessage",
+    "RelativePath": "api/MenuItem/sendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "WebApplication2.Models.ContactMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

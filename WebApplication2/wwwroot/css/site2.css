@@ -1,0 +1,48 @@
+﻿.part4 {
+    display:flexl;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-top:100px;
+   
+}
+
+    .part4 .part42 {
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+        .part4 .part42 button {
+            border-radius: 50px;
+            border: none;
+            background-color: #f3f4f6;
+            color: #6b7280;
+            padding:20px 30px;
+            margin-bottom:20px;
+        }
+        
+
+    .part4 p {
+        color: #6b7280;
+    }
+.active1 {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+}
+
+
+.part42 button.active-btn {
+    background-color: orange; /* الخلفية برتقالية */
+    color: white; /* النص أبيض */
+    border: none; /* بدون حدود */
+    font-weight: bold; /* الخط عريض */
+}
+
+.part44 {
+    height:1100px;
+}

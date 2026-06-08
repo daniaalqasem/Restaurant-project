@@ -1,0 +1,101 @@
+﻿
+    .b {
+      font-family: Tahoma, Arial, sans-serif;
+     margin-top:50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .reservation-container {
+      display: flex;
+      width: 800px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+    }
+
+    /* القسم الأيسر */
+    .instructions {
+      background-color: #000;
+      color: #fff;
+      padding: 30px;
+      width: 40%;
+    }
+
+    .instructions h2 {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    .instructions ul {
+      margin: 0;
+      padding-right: 20px;
+    }
+
+    .instructions li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .instructions .help {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    /* القسم الأيمن */
+    .form-section {
+      background-color: #fff;
+      padding: 30px;
+      width: 60%;
+    }
+
+    .form-section h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .form-section p {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .form-section label {
+      display: block;
+      margin-bottom: 5px;
+      color: #444;
+    }
+
+    .form-section input,
+    .form-section textarea,
+    .form-section select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .form-section button {
+      width: 100%;
+      padding: 12px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .form-section button:hover {
+      background-color: #333;
+    }
+
+.Links a.active1 {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 2px solid orange;
+}

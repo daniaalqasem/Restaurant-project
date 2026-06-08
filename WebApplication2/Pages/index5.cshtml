@@ -1,0 +1,174 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="./css/site2.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3  navbar ">
+            <div class="container">
+                <div class="logo">
+                    <span>سفرة هانم</span>
+                    <i class="fa-solid fa-utensils" style="color:#f59e0b; font-size:28px;"></i>
+                 
+                </div>
+                 
+
+                <div class="nav-item">
+                   
+
+
+                    <div class="reservation">
+                        <a href="https://localhost:7130/Index5" class="btn btn-warning rounded-pill px-4 py-2 text-white fw-bold">حجز طاوله</a>
+
+                    </div>
+
+
+
+                    <div class="Links">
+                        <a href="https://localhost:7130/" class="text-decoration-none fw-bold link1">الرئيسه</a>
+                        <a href="https://localhost:7130/Index2/" class="text-decoration-none fw-bold link2">القائمه</a>
+                        <a href="https://localhost:7130/Index3/" class="text-decoration-none fw-bold link3">من نحن </a>
+                        <a href="https://localhost:7130/Index4/" class="text-decoration-none fw-bold link4">اتصل بنا</a>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+                    
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <main>
+       
+         <div class="b"> 
+
+        <div class="reservation-container">
+            <!-- القسم الأيسر -->
+            <div class="instructions">
+                <h2>تعليمات الحجز</h2>
+                <ul>
+                    <li>يُرجى الوصول قبل موعد الحجز بـ 10 دقائق.</li>
+                    <li>سيتم إلغاء الحجز تلقائيًا بعد مرور 20 دقيقة من الموعد المحدد.</li>
+                    <li>للحجوزات الكبيرة (أكثر من 15 شخصًا)، يُرجى التواصل هاتفيًا.</li>
+                </ul>
+                <div class="help">
+                    تحتاج مساعدة؟ <br>
+                    +966 50 123 4567
+                </div>
+            </div>
+
+            <!-- القسم الأيمن -->
+                <form id="reservationForm" class="form-section">
+                    <h2>احجز طاولتك</h2>
+                    <p>املأ البيانات التالية لضمان توفر مكانك في الوقت المناسب.</p>
+
+                    <label for="date">تاريخ الحجز</label>
+                    <input type="date" id="date">
+
+                    <label for="time">الوقت</label>
+                    <input type="time" id="time">
+
+                    <label for="people">عدد الأفراد</label>
+                    <input type="number" id="people" placeholder="كم شخص؟">
+
+                    <label for="phone">رقم الجوال</label>
+                    <input type="tel" id="phone" placeholder="05xxxxxxxx">
+
+                    <label for="notes">ملاحظات إضافية</label>
+                    <textarea id="notes" rows="4" placeholder="مثلاً: طاولة بجانب النافذة، مناسبة عيد ميلاد..."></textarea>
+
+                    <button type="submit">تأكيد طلب الحجز</button>
+                </form>
+
+        </div>
+
+        </div>
+
+
+
+
+        
+
+        <section class="part3">
+            <div class="part31">
+                <div class="part311">
+                    <h4>سفرة هانم</h4>
+                    <i class="fa-solid fa-utensils" style="color:#f59e0b; font-size:28px;"></i>
+                    <p>
+                        نقدم لكم تجربة طعام فريدة تجمع بين عراقة الماضي وحداثة الحاضر، مع أجود المكونات الطازجة والنكهات الأصيلة.
+
+                    </p>
+                    <div class="ii">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    
+                </div>
+
+                <div class="part311">
+                    <h4>روابط سريعه</h4>
+                    <div class="Links">
+                        <a href="#" class="text-decoration-none fw-bold text-white">الرئيسه</a>
+                        <a href="#" class="text-decoration-none fw-bold text-white">قائمه الطعام</a>
+                        <a href="#" class="text-decoration-none fw-bold text-white">قصتنا  </a>
+                        <a href="#" class="text-decoration-none fw-bold text-white">حجز طاوله</a>
+
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="part311">
+                    <h4>ساعات العمل </h4>
+                    <p>
+                        الأحد - الخميس:
+                        12:00 م - 12:00 ص
+                    </p>
+                    <p>
+                        الجمعة - السبت:
+                        01:00 م - 02:00 ص
+                    </p>
+                </div>
+
+                <div class="part311">
+                    <h4>اتصل بنا</h4>
+                    <p>+966 50 123 4567</p>
+                    <p>
+                        info@sofrahanem.com
+                    </p>
+                    <p>
+                        الرياض، حي الملقا، طريق الملك فهد
+                    </p>
+
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+    <script src="./js/site.js"></script>
+</body>
+</html>
